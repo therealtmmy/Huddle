@@ -1,0 +1,231 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 63em;
+    padding-top: 20px;
+    /* Documentation: Use flex to pick content to the screen regardless of the zoom pixels */
+}
+
+.logo {
+    width: 7em;
+    height: 4em;
+    object-fit: contain;
+}
+
+.logo-btn {
+    width: 9em;
+    height: 2em;
+    border-radius: 20px;
+    border: none;
+    background-color: white;
+    color: hsl(322, 100%, 66%);
+    outline: 2px solid hsl(322, 100%, 66%);
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.head-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    margin-top: 3em;
+    font-size: 50px;
+}
+
+.head-body-text {
+    width: 26em;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+
+.head-body-btn {
+    width: 17em;
+    height: 3em;
+    border: none;
+    border-radius: 20px;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    margin-bottom: 60px;
+    cursor: pointer;
+}
+
+.head-img {
+    width: 60em;
+    height: 50em;
+    object-fit: contain;
+}
+
+/*  Second Segment */
+
+.Community-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15em;
+}
+
+.Community-Img {
+    width: 3em;
+    height: 2em;
+    object-fit: contain;
+}
+
+.Community-main-head {
+    font-size: 70px;
+}
+
+.Community-text {
+    text-align: center;
+}
+
+/* Third Segment */
+
+.Grow-Together, .Flow-Conversation, .Users {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15em;
+    gap: 15em;
+}
+
+.Grow-Together-Main-Text, .Flow-Conversation-head, .Users-head {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.grow-together-img, .Flow-Conversation-Img, .Users-Img {
+    width: 35em;
+    height: 25em;
+    object-fit: contain;
+}
+
+.Grow-together-text {
+    width: 27em;
+}
+
+.Flow, .User-div, .Grow-div {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.Flow-Conversation-text {
+    width: 28em;
+}
+
+.Users-Text {
+   width: 25em; 
+}
+
+
+.Read-to-build {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10em;
+}
+
+.Read-to-build-main-text {
+    font-size: 40px;
+}
+
+.Read-btn {
+    width: 17em;
+    height: 3em;
+    border: none;
+    border-radius: 20px;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    cursor: pointer;
+}
+
+/* Footer */
+.footer {
+    background: hsl(192, 100%, 9%);
+    height: 24em;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3em;
+    color: white;
+    gap: 30em;
+}
+
+.footer-img {
+    filter: invert();
+    width: 10em;
+    height: 4em;
+    object-fit: contain;
+}
+
+.footer-text {
+    width: 20em;
+    margin-bottom: 30px;
+}
+
+.contact-img {
+    float: left;
+    margin-right: 10px;
+}
+
+.Newsletter {
+    margin-top: 20px;
+}
+
+.Newsletter-text {
+    width: 21em;
+    margin-bottom: 20px;
+}
+
+.Newsletter-input {
+width: 23em;
+height: 2em;
+border-radius: 4px;
+border: none;
+outline: none;
+padding-left: 10px;
+}
+
+.Newsletter-button {
+    width: 7em;
+    height: 2em;
+    margin-left: 20px;
+    color: white;
+    background: hsl(322, 100%, 66%);
+    border: none;
+    border-radius: 4px;
+}
+
+i {
+    color: white;
+    margin-top: 30px;
+    letter-spacing: 10px;
+}
+
+.Attribution {
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+}
