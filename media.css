@@ -1,0 +1,214 @@
+@media screen and (max-width: 320px) {
+    .nav-bar {
+        gap: 5.5em;
+        padding-top: 20px;
+    }
+
+    .logo {
+        width: 5em;
+        height: 2em;
+        object-fit: contain;
+    }
+
+    .logo-btn {
+        width: 7em;
+        height: 1.8em;
+        margin-top: 4px;
+        outline: 1px solid hsl(322, 100%, 66%);
+        font-size: 12px;
+        padding-left: 5px;
+    }
+     
+    h1 {
+        margin-top: 5em;
+        font-size: 23px;
+        text-align: center;
+        width: 250px;
+    }
+
+    .head-body-text {
+        width: 18em;
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .head-body-btn {
+        width: 15em;
+        height: 3em;
+        font-size: 12px;
+    }
+
+    .head-img {
+        width: 22em;
+        height: 11em;
+        object-fit: contain;
+    }
+
+    .Community-details {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5em;
+        gap: 7em;
+    }
+    
+    .Community-Img {
+        width: 2em;
+        height: 2em;
+        object-fit: contain;
+    }
+    
+    .Community-main-head {
+        font-size: 50px;
+        text-align: center;
+    }
+    
+    .Community-text {
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .Grow-Together, .Users {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5em;
+        gap: 2em;
+    }
+
+    .Flow-Conversation {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5em;
+        gap: 2em;
+    }
+
+    .grow-together-img, .Flow-Conversation-Img, .Users-Img {
+        width: 15em;
+        height: 20em;
+        object-fit: contain;
+    }
+    
+    .Grow-Together-Main-Text, .Flow-Conversation-head, .Users-head {
+        font-size: 17px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .Grow-together-text {
+        width: 19em;
+        text-align: center;
+        font-size: 13px;
+    }
+    
+    .Flow, .User-div, .Grow-div {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+    
+.Flow-Conversation-text {
+        width: 20em;
+        text-align: center;
+        font-size: 13px;
+    }
+    
+    
+.Flow, .User-div, .Grow-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Users-Text {
+   width: 19em; 
+   text-align: center;
+   font-size: 13px;
+}
+
+
+.Read-to-build {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10em;
+}
+
+.Read-to-build-main-text {
+    font-size: 21px;
+    text-align: center;
+}
+
+.Read-btn {
+    width: 15em;
+    height: 3em;
+    font-size: 12px;
+}
+
+
+/* Footer */
+.footer {
+    height: 40em;
+}
+
+.footer-content {
+    flex-direction: column-reverse;
+    gap: 5em;
+}
+
+.footer-img {
+    width: 6em;
+    height: 3em;
+    object-fit: contain;
+}
+
+.footer-text {
+    width: 19em;
+    margin-bottom: 30px;
+    font-size: 13px;
+}
+
+.contact-img {
+    float: left;
+    margin-right: 10px;
+}
+
+.Newsletter {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.News {
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+.Newsletter-text {
+    width: 21em;
+    margin-bottom: 20px;
+    font-size: 13px;
+    text-align: start;
+}
+
+.Newsletter-input {
+width: 19.3em;
+height: 2em;
+padding-left: 10px;
+}
+
+.Newsletter-button {
+    width: 7em;
+    height: 2em;
+    margin-left: 13em;
+    margin-top: 10px;
+}
+
+}
